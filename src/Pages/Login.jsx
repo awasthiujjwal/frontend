@@ -23,16 +23,16 @@ const Login = () => {
   }, []); // Empty dependency array ensures this runs once when the component mounts
 
   return (
-    <div className='Div1'>
-      <div className='Div2'>
-        <img
+    <div className='container-fuid vh-100 d-flex align-items-center'>
+      <div className='row w-100'>
+        <img  className='img-fluid'
           style={{ height: '100vh', width: '50vw', objectFit: 'cover' }}
           src={Image}
           alt="Login Background"
         />
       </div>
-      <div >
-        <form className='Div3' style={{ height: '100vh', width: '50vw', objectFit: 'cover' }}>
+      <div className='col-md-6 d-flex flex-column align-items-center me-5'>
+        <form className='d-felx justify-content-center aign-item-cemter '>
           <h4 style={{marginRight:"110px", marginTop:"50px"}}><b>Sign in to your account!</b></h4>
           <p style={{marginRight:"10px"}}>Enter your Phone Number to sign in to your account</p>
           <div className="mb-3">
@@ -57,7 +57,7 @@ const Login = () => {
                 <button className='Signinbutton'> <FaGofore size={30} /><b> Sign in using Google </b></button>
               </span>
               </span>
-              <p style={{marginTop:"90px"}}>Don't have an account? <Link>Sign Up</Link></p>  
+              <p style={{marginTop:"90px", marginLeft:"50px"}}>Don't have an account? <Link>Sign Up</Link></p>  
         </form>
         
       </div>

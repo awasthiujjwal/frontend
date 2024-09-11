@@ -21,21 +21,17 @@ const Signup = () => {
     }
   }, []);
   return (
-    <div>
-      <div className='signup'>
-      <div className='Div2'>
-        <img
-          style={{ height:'100vh', width: '50vw', objectFit: 'cover' }}
-          src={Image}
-          alt="Login Background"
-        />
-      </div>
-      <div >
-        <form className='Div3' style={{ height: '100vh', width: '50vw', objectFit: 'cover', overflowX:"hidden" }}>
+    <div className='container-fuid vh-100 d-flex align-items-center'>
+    <div className='row w-100' >
+        
+         <img style={{height:"100vh", width:"50vw", objectFit:"cover"}} src={Image} alt="" srcset="" />
+         </div>
+      <div  className='col-md-6 d-flex flex-column align-items-center me-5'>
+        <form className='d-felx justify-content-center aign-item-cemter '>
           <h4 style={{marginRight:"80px", marginTop:"50px"}}><b>Register to your account!</b></h4>
           <p style={{marginRight:"10px"}}>Enter your Phone Number to Create your account</p>
           <div className="mb-3">
-            <label style={{marginTop:"10px"}} htmlFor="Phone" className="form-label">Phone Number</label><br />
+            <label style={{marginTop:"10px",marginRight:"130px"}} htmlFor="Phone" className="form-label">Phone Number</label><br />
             <input 
             style={{width:"300px"}}
               type="tel"
@@ -46,7 +42,7 @@ const Signup = () => {
               
             /> <br />
              <input id='terms' type="checkbox" />
-            <label className='mt-5' htmlFor="terms">I agree to terms & conditions</label>
+            <label className='mt-5 ms-2' htmlFor="terms">I agree to terms & conditions</label>
            
           </div>
           
@@ -61,12 +57,12 @@ const Signup = () => {
                 <button className='Signinbutton'> <FaGofore size={30} /> <b> Sign up using Google </b></button>
               </span>
               </span>
-              <p style={{marginTop:"30px"}}>Already have an accout? <Link>Sign in</Link></p>  
+              <p  style={{marginTop:"20px", marginLeft:"90px"}}>Already have an accout? <Link>Sign in</Link></p>  
         </form>
         
       </div>
     </div>
-    </div>
+    
   )
 }
 

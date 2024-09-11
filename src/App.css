@@ -194,7 +194,7 @@ text-decoration: none;
 .or{
   margin-top: 30px;
   color: rgb(202, 201, 201);
-  
+  margin-left: 150px;
 }
 .Signin{
   margin-top: 20px;
@@ -213,7 +213,7 @@ text-decoration: none;
   background-color: white;
   color: black;
   width: 300px;
-
+  margin-right: 70px;
 }
 .Signinbutton:hover{
   border: 3px solid rgb(245, 241, 241);
@@ -226,3 +226,42 @@ text-decoration: none;
   /* justify-content: center; */
   align-items: center;
 }
+.otp{
+  display: flex;
+  align-items: center;
+
+
+}
+.Mobile{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* gap: 10px;
+  border-radius: 100%;
+  height: 30px;
+  width: 30px;
+  padding: 20px;
+  border-color: 10px solid black; */
+}
+.lock{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 30px;
+}
+/* Persona details css starts from here */
+.Personal{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: brown;
+}
+/* .details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+   align-items: center; 
+} */
