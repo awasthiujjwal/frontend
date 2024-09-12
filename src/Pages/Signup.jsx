@@ -57,7 +57,7 @@ const Signup = () => {
                 <button className='Signinbutton'> <FaGofore size={30} /> <b> Sign up using Google </b></button>
               </span>
               </span>
-              <p  style={{marginTop:"20px", marginLeft:"90px"}}>Already have an accout? <Link>Sign in</Link></p>  
+              <p  style={{marginTop:"20px", marginLeft:"40px"}}>Already have an accout? <Link>Sign in</Link></p>  
         </form>
         
       </div>
