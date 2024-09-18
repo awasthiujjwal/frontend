@@ -1,8 +1,9 @@
 import React from 'react'
-import Images from '../Images/Chat.png'
-import Images2 from '../Images/Events.png'
-import { FaTwitter } from "react-icons/fa";
+import lauren from '../Images/2.png'
+import five from '../Images/5.png'
+import Premiun from '../Images/premium.png'
 import { TiSocialLinkedin } from "react-icons/ti";
+import { FaTwitter } from "react-icons/fa";
 import { TbBrandApple } from "react-icons/tb";
 import { IoLogoGooglePlaystore } from "react-icons/io5";
 import { FaInstagramSquare } from "react-icons/fa";
@@ -10,50 +11,67 @@ import { FaYoutube } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { FaBehance } from "react-icons/fa";
 import { MdCopyright } from "react-icons/md";
-
-const Start = () => {
+const Home = () => {
   return (
-    <div >
-        
-        <div className='Container'>
-        
-            <div className='first'> 
-            <span className='headingcolor'>
-                <span><h3>SENIOR</h3></span>
-                <span><h3 id='pinkcolor'>SPARKS</h3></span>
-            </span>
-                <h1>Find Your Match With Lavie Connect</h1> <br />
-                <br />
-               <p> With lots of unique people you can easily find a partner without hassle. Build your next connection with in few minutes.</p><br />
-               <br />
-                <button className='button'> GetStarted</button>
-             <b>DOWNLOAD OUR APP</b>
-            <span className='download'>
-             <span >
+    <div className='container-fuid  d-flex flex-column align-items-center home'>
+        {/* firstdiv starts from here */}
+        <div className='firstdiv'>
+      <div >
+    <img style={{objectFit:'cover',height:'280px',}} src={lauren} alt="" srcset="" />
+      </div>
+
+<div className='sidediv'>
+    <div>
+        <img style={{objectFit:'cover',height:'100px',}}  src={Premiun} alt="" srcset="" />
+    </div>
+    <div>
+    <div>
                 <button className='downloadButton'> <TbBrandApple size={30}/> Download On the<b>App Store</b></button>
-                </span>
-              <span>
-                <button className='downloadButton'> <IoLogoGooglePlaystore size={30} /> GET IT ON <b>GOOGLE PLAY</b></button>
-              </span>
-              </span>
-                </div> {/* first div ends here */}
-               {/* /* {second div starts from here} */ }
-            <div className='Second'>
-            <button className="secondbutton">Get Started</button>
-             <div className='star'>
-                    <p>**************<br />**************<br />**************<br />**************<br />**************<br /></p>
-            </div> 
-            {/* star div ends here */}
-            <div className='images'>
-                <img className='firstImage' width={250} height={400}  src={Images}alt="" srcset="" />
-                <img className='secondImage' width={200} height={300} src={Images2} alt="" srcset="" />
-                </div>
-                </div> {/* second div ends here */}
                
-        </div>{/* Container div ends here */}
+                <button style={{marginBottom:'30px'}} className='downloadButton'> <IoLogoGooglePlaystore size={30} /> GET IT ON <b>GOOGLE PLAY</b></button>
+              
+              </div>
+    </div>
+
+</div>
 
 
-        {/* footer starts from here */}
+
+
+      </div>
+      {/* first main div ends here */}
+
+
+
+
+    <div className='Seconddiv'>
+
+      <div>
+    <img style={{objectFit:'cover',height:'250px',}}src={five} alt="" srcset="" />
+      </div>
+    
+      <div className='list'><b style={{marginLeft:'30px'}}>Preferences</b><ul>
+                <li style={{marginRight:'100px'}}>Share App</li>
+                <li>Blocked Profiles</li>
+                <li>Delete Account</li>
+                <li>Supprort</li>
+                 
+                </ul>
+                {/* list one div one ends here */}
+           
+            
+                <b style={{marginLeft:'30px'}}>Legal & Safety</b> <ul>
+                <li>Terms of Service</li>
+                    <li>Privacy Policy</li>
+                     <li>Safety Tips</li>
+                     <li>Online safety guide </li>
+                    
+                </ul>
+             {/* listTwo div ends here */}
+             </div> 
+             </div>
+             {/* second div ends here */}
+              {/* footer starts from here */}
         
         <footer className='footer'>
         <div className='footer1'>
@@ -99,9 +117,12 @@ const Start = () => {
               
               </div>
         </footer>
-       <p style={{marginLeft:'600px'}}><MdCopyright /> Senior Sparks</p> 
-    </div>
+        <p style={{marginLeft:'100px',marginBottom:'100px'}}><MdCopyright /> Senior Sparks</p> 
+      </div>
+     
   )
+ 
+  
 }
 
-export default Start
+export default Home
