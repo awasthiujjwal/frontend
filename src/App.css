@@ -279,8 +279,16 @@ text-decoration: none;
   width: 50px;
   
  }
+.backbutton button:hover{
+  background-color: rgba(67, 183, 187, 0.827);
+}
  
- 
+ /*ethinicity page css  */
+ .ethinicity button:hover {
+  background-color: rgba(76, 220, 225, 0.751) ;
+ }
+
+ /* ethinicitypage css ends */
 
  /* interest page css starts from here */
  .gender{

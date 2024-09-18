@@ -10,9 +10,9 @@ const Interest = () => {
       </div>
       <div className='col-md-6 d-flex flex-column justify-content-center align-items-center gap-md-4'>
       <div className='backbutton'> 
-    <span  ><MdArrowBackIos style={{marginBottom:'5px'}} />
-    <button >back</button></span>
-     <span><button>Skip</button></span>
+    
+    <button > <MdArrowBackIos style={{marginBottom:'5px'}} />back</button>
+     <button>Skip</button>
     </div>
     <h3>I'm interested in</h3>
     <div className="gender">
