@@ -1,5 +1,8 @@
 import React from 'react'
-
+import { CiHome } from "react-icons/ci";
+import { PiHeartStraight } from "react-icons/pi";
+import { LuMessageCircle } from "react-icons/lu";
+import { FaRegCalendarCheck } from "react-icons/fa";
 const Navbar = () => {
   return (
     <div>
@@ -15,23 +18,21 @@ const Navbar = () => {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Home</a>
+          <a className="nav-link active" aria-current="page" href="#"> <CiHome  style={{marginBottom:'5px'}} />Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Likes</a>
+          <a className="nav-link" href="#"> <PiHeartStraight  style={{marginBottom:'5px'}} />Likes</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Matches</a>
+          <a className="nav-link" href="#"> <PiHeartStraight  style={{marginBottom:'5px'}} />Matches</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Messages</a>
+          <a className="nav-link" href="#"> <LuMessageCircle  style={{marginBottom:'5px'}} />Messages</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Events</a>
+          <a className="nav-link" href="#"> <FaRegCalendarCheck  style={{marginBottom:'5px'}} />Events</a>
         </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Likes</a>
-        </li>
+       
         <li className="nav-item dropdown">
           <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Menu
