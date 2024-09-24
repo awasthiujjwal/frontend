@@ -16,6 +16,19 @@ import Calling from './Pages/Calling';
 import Filter from './Pages/Filter';
 import Add from './Pages/Add';
 import BuySwipes from './Pages/BuySwipes';
+import PerfectMatch from './Pages/PerfectMatch';
+import Gopremium from './Pages/Gopremium';
+import Filterpremium from './Pages/Filter+premium';
+import Callpage from './Pages/Callpage';
+import Profile from './Pages/Profile';
+import Matches from './Pages/Matches';
+import Yourlikes from './Pages/Yourlikes';
+import Chatpage from './Pages/Chatpage';
+import Createevent from './Pages/Createevent';
+import Searchandcreateevent from './Pages/Searchandcreateevent';
+import WrongOTP from './Pages/WrongOTP';
+import SignupSuccessfull from './Pages/SignupSuccessfull';
+import Success from './Pages/Success';
 
 function App() {
   return (
@@ -24,7 +37,6 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Start/>} />
-
         <Route path='/home' element={<Home/>} />
         <Route path='/Login' element={<Login/>} />
         <Route path='/Signup' element={<Signup/>} />
@@ -38,7 +50,22 @@ function App() {
         <Route path='/filter' element={<Filter/>} />
         <Route path='/ad' element={<Add/>} />
         <Route path='/buylikes' element={<BuySwipes/>} />
-
+        <Route path='/PerfectMatch' element={<PerfectMatch/>} />
+        <Route path='/Subscription' element={<Gopremium/>} />
+        <Route path='/premiumfiter' element={<Filterpremium/>} />
+        <Route path='/Callpage' element={<Callpage/>} />
+        <Route path='/VideoCall' element={<Callpage/>} />
+        <Route path='/yourprofile' element={<Profile/>} />
+        <Route path='/yourmatches' element={<Matches/>} />
+        <Route path='/yourlikes' element={<Yourlikes/>} />
+        <Route path='/yourchat' element={<Chatpage/>} />
+        <Route path='/CreateEvent' element={<Createevent/>} />
+        <Route path='/SearchEvents' element={<Searchandcreateevent/>} />
+        <Route path='/wrongOTP' element={<WrongOTP/>} />
+        <Route path='/SignupSuccess' element={<SignupSuccessfull/>} />
+        <Route path='/Success' element={<Success/>} />
+      
+        
       </Routes>
       </BrowserRouter>
     

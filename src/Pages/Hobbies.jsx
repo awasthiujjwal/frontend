@@ -22,6 +22,7 @@ const Hobbies = () => {
         <img  className='img-fluid'
           style={{ height: '100vh', width: '50vw', objectFit: 'cover' }}
           src={Image}
+          alt=''
          />
       </div>
       

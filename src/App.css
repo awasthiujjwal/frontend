@@ -20,7 +20,7 @@ text-decoration: none;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: aqua;
+  background-color: cadetblue;
   /* height: 100vh; */
 }
 .Container h1 {
@@ -52,7 +52,7 @@ text-decoration: none;
 .download{
   display: flex;
   padding-right: 10px;
-  background-color: brown;
+  /* background-color: brown; */
  
 }
 .downloadButton {
@@ -66,6 +66,7 @@ text-decoration: none;
   border: none;
   border-radius: 3px;
   margin: 10px;
+ 
   cursor: pointer;
  
 }
@@ -140,8 +141,8 @@ text-decoration: none;
 /*footer section starts from here*/
 
 .footer{
-  height: 400px;
-  width: auto;
+  height: 300px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -582,4 +583,563 @@ width: 200px;
   height: 100px;
   width: 100px;
   background-color: azure;
+}
+/* fite+premium css starts grom here */
+.lauren-container{
+ 
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+}
+.laurenbackground{
+  width: 600px;
+  height: 400px;
+  /* object-fit: cover; */
+  filter: blur(5px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.starpremium{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  max-width: 150px;
+}
+.agedistancefiter{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  max-width: 400px;
+}
+/* call page css start */
+.emie{
+  height: 100%;
+  width: 100%;
+  
+}
+/* Profile css starts from here */
+  .Profilediv1{
+  height: 300px;
+  width: 100%;
+   padding: 10px;
+  margin: 10px;
+   display: flex;
+ align-items: center;
+ 
+  gap: 10px;
+  }
+
+  .Photodiv img{
+    height: 280px;
+  }
+  .contentdiv{
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+  }
+  .contentdiv div{
+    margin: 20px;
+    padding: 10px;
+    
+    align-items: center;
+  }
+  .details{
+    margin: 20px;
+    padding: 10px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center; */
+    
+  }
+  .premiumplusprofile{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: antiquewhite; */
+    width: 100%;
+  }
+  .mainprofilediv{
+    width: 100%;
+    overflow: hidden;
+    height: max-content;
+    /* background-color: aqua; */
+  }
+
+  .bigProfilediv{
+    height: 600px;
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color:aliceblue ;
+  }
+  .header{
+    background-color: aliceblue;
+   display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    gap: 10px;
+  }
+
+  .Profilediv2{
+    height: 150px;
+    width: 97%;
+    
+    background-color: white;
+  }
+  .pic{
+    height: 200px;
+    width: max-content;
+  }
+  .Profilediv3{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: auto;
+    height: 200px;
+    width: 97%;
+    background-color: white;
+  }
+  .buttondiv{
+    display: flex;
+    /* width: 100px; */
+    /* justify-content: center; */
+    align-items: center;
+    gap:30px;
+   
+  }
+  .buttondiv button{
+    margin-left: 15px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: cadetblue;
+  }
+  .Profilediv3 button:hover{
+    color: white;
+    background-color:black;
+  }
+  .Profilediv4{
+    padding: auto;
+    height: 200px;
+    width: 97%;
+    background-color: white;
+  }
+  .Profilediv5{
+ 
+    padding: auto;
+    height: 200px;
+    width: 97%;
+    background-color: #ffffff;
+  }
+  .hobbiesbutton1{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  .hobbiesbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+    border-radius: 30px;
+    margin: 10px;
+    width: 120px;
+    height: 30px;
+  }
+  .Profilediv6{
+    padding: auto;
+    height: 200px;
+    width: 97%;
+    background-color: white;
+  }
+  .settings{
+    height: max-content;
+    width: max-content;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .settingdiv{
+    background-color: aliceblue;
+    height: max-content;
+    width: 100%;
+    display: flex;
+   align-items: center;
+    gap: 10px;
+
+  }
+/* profile css ends here */
+/* matches pages css starts here */
+.matchesmaindiv{
+  height: max-content;
+  width: 100%;
+  background-color: white;
+}
+.Secondmaindiv{
+
+  height: max-content;
+  width: 80%;
+  background-color: white;
+}
+.partition{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.updown{
+  /* background-color: aliceblue; */
+  margin: 20px;
+  padding: 10px;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.updown button{
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  border: none;
+  background-color: aliceblue;
+}
+.secondmaindivpics{
+  height: 400px;
+  width: 100%;
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  border-radius: 10px;
+  gap: 20px;
+ 
+}
+
+.secondmaindivpic1{
+  border-radius: 20px;
+  height: 300px;
+  width: 200px;
+ 
+}
+.secondmaindivpic2{
+  border-radius: 20px;
+  height: 300px;
+  width: 200px;
+ 
+}
+.secondmaindivpic3{
+  border-radius: 10px;
+  height: 300px;
+  width: 200px;
+ 
+}
+.secondmaindivpic{
+  border-radius: 10px;
+  height: 300px;
+  width: 200px;
+ 
+}
+.buttondownload{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 3px;
+  margin: 10px;
+  margin-left: 30px;
+  cursor: pointer;
+ 
+}
+.emptydiv{
+  margin-left: 30px;
+}
+/* chat page css starts from here */
+.chatpage1{
+ /* background-color: aqua; */
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+ height: 100vh;
+ width: 100%;
+ gap: 10px;
+}
+.chatpage2{
+  margin: 10px;
+  padding: 20px;
+  height: 100vh;
+  width: max-content;
+  /* background-color: cadetblue; */
+  position: relative;
+}
+.search{
+  border-radius: 20px;
+  border: none;
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+ position: absolute;
+
+}
+.search::placeholder{
+  padding: 15px;
+}
+.searchicon{
+  margin-top: 13px;
+/* background-color: aqua; */
+  position: absolute;
+}
+.micicon{
+  margin-top: 13px;
+margin-left: 200px;
+  position: absolute;
+}
+.chatpage3{
+  height: 100vh;
+  width: max-content;
+  object-fit: cover;
+  /* background-color: brown; */
+}
+.chatpagesidebar{
+  height: 100vh;
+  width:max-content;
+  /* background-color:  cadetblue; */
+}
+.Chatbar{
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  gap: 10px;
+  margin-top: 80px;
+  /* background-color: blanchedalmond; */
+}
+.Chat{
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  /* background-color: black; */
+}
+.content{
+  height: 100%;
+  width: 100%;
+}
+.chatpagesidebar2{
+  width: max-content;
+  margin: 10px;
+  /* padding: 10px; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+.twenty{
+font-weight: 100;
+font-size: 10px;
+}
+.chatpagesidebar1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  background-color: coral;
+}
+.secondimage{
+  height: 10px;
+  width: 10px;
+}
+.chatpagesidebar1{
+position: relative;
+display: inline-block;
+  }
+.menuicon{
+ 
+  cursor: pointer;
+}
+.list {
+  padding: 0px;
+  margin-top: 140px;
+  width: 100px;
+  height: 110px;
+  margin-left: 120px;
+  cursor: pointer;
+  display: none;
+  position: absolute;
+}
+.menuicon:hover + .list, list:hover{
+  display: block;
+}
+.chatpagelist{
+  border: 1px solid black;
+  border-radius: 1px;
+}
+
+
+/* create event css starts from here */
+.createeventdiv{
+height: max-content;
+width: max-content;
+/* background-color: aqua; */
+}
+.Createevent{
+height:max-content;
+width: 100vw ;
+}
+.footercreateevent{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+gap: 40px;
+}
+/* searchevent and create div starts from here */
+.Searcheventmaindiv{
+  height: 100vh;
+  width: 100%;
+ 
+}
+.Serachevents{
+  margin: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  width: 95%;
+
+  /* position: relative; */
+  /* background-color: aqua; */
+}
+.searcheventicon{
+position: absolute;
+margin-top: 35px;
+margin-left: 30px;
+}
+.Serachevents::placeholder{
+ padding: 30px;
+}
+.leftrightPartition{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 30px;
+  padding: 10px;
+  height: 500px;
+  width:1200px;
+  background-color: aliceblue;
+}
+.leftside{
+margin: 10px;
+padding: 10px;
+display: flex;
+flex-direction: column;
+ gap: 10px;
+height: 100%;
+width: max-content;
+background-color: aliceblue;
+}
+.rightside{
+  margin-left: 20px;
+height: 100%;
+width: max-content;
+display: flex;
+flex-direction: column;
+gap: 10px;
+background-color: aliceblue;
+}
+.rightsidefirstdiv{
+  /* background-color:chartreuse; */
+  height: 400px;
+  width: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 5px;
+}
+.rightsidefirstdiv1 img{
+  height: 230px;
+  width: 150px;
+ 
+}
+.rightsidefirstdiv2 img{
+  height: 230px;
+  width: 150px;
+  margin-right:300px ;
+}
+.rightsideSeconddiv{
+  height: 300px;
+  width: 150px;
+  margin-right:470px 
+  /* background-color: coral; */
+}
+.rightsideSeconddiv img{
+  height: 200px;
+  width: 150px;
+}
+.UpcomingEvents{
+  height: 150px;
+  width: 250px;
+  
+}
+/* SERACH AND CREATE CSS ENDS HERE*/
+
+.class{
+  margin: 20px;
+  padding: 10PX;
+  position: relative;
+  overflow: hidden;
+}
+.firstimage{
+  position: absolute;
+}
+.secondimage{
+display: flex;
+justify-content: center;
+align-items: center;
+  position: absolute;
+}
+.secondimage img{
+  height: 400px;
+  margin-left: 350px;
+  margin-top: 100px;
+}
+.signin{
+width: 300px;
+background-color: cadetblue;
 }

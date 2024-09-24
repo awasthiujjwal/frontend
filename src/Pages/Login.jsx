@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import intlTelInput from 'intl-tel-input'; // Import the intl-tel-input library
 import 'intl-tel-input/build/css/intlTelInput.css'; // Import the CSS for styling
-import Image from '../Images/Login.png'; 
+import Image from '../Images/Login.png'; // Correct the image import
 import { TbBrandApple } from "react-icons/tb";
 import { FaGofore } from "react-icons/fa";
 import {Link} from 'react-router-dom'

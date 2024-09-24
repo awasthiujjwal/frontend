@@ -6,7 +6,7 @@ const Interest = () => {
   return (
     <div className='container-fuid vh-100 d-flex align-items-center'>
       <div className='row w-100'>
-        <img style={{height:"100vh", width:"50vw", objectFit:"cover"}} src={Image}/>
+        <img style={{height:"100vh", width:"50vw", objectFit:"cover"}} src={Image} alt=''/>
       </div>
       <div className='col-md-6 d-flex flex-column justify-content-center align-items-center gap-md-4'>
       <div className='backbutton'> 
